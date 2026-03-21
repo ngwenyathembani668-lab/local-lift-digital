@@ -37,7 +37,7 @@ nav {
 }
 
 .logo label span {
-    color: orange;
+    color: #FF914D;
 }
 
 .nav-links ul {
@@ -108,7 +108,7 @@ i span {
 
 .hero-cta a {
     padding: 12px 25px;
-    background-color: orange;
+    background-color: #FF914D;
     text-decoration: none;
     color: #000;
     font-size: 1.1rem;
@@ -170,7 +170,7 @@ i span {
     font-size: 1.8rem;
     font-weight: 530;
     margin: 0 0 55px 0;
-    color: orange;
+    color: #FF914D;
 }
 
 .sol h2 {
@@ -262,7 +262,7 @@ h3 {
 }
 
 .rating i {
-    color: orange;
+    color: #FF914D;
 }
 
 
@@ -302,7 +302,7 @@ footer {
 
 .socials-d strong {
     font-size: 1.8rem;
-    color: orange;
+    color: #FF914D;
 }
 
 .strong {
@@ -344,7 +344,7 @@ footer {
 }
 
 .footer-logo label span {
-    color: orange;
+    color: #FF914D;
 }
 
 .footer-logo label{
