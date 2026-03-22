@@ -1,32 +1,107 @@
-.scan-friendly {
-    width: 98%;
-    margin-left: 1%;
-    background-color: #d6d6d699;
-    margin-top: 80px;
-    border-radius: 14px;
-    padding: 35px 20px;
-}
-
-.scan-h h2 {
-    font-size: 3.2rem;
-    padding: 50px;
-    font-weight: 580;
-}
-
-.scan-gmb {
+/* services!! */
+.service-breakdown {
+    max-width: 100%;
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.service-breakdown h2 {
+    margin-top: 30px;
+    color: #1a1a1a;
+    font-size: 2.8rem;
+}
+
+.service-breakdown h3 {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1.59rem;
+    padding: 0 0 30px 0;
+    text-align: left;
+}
+
+.service-breakdown ul {
+    margin: 10px 0 20px 20px;
+    list-style-type: disc;
+}
+
+.serv-box {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 5%;
+    padding-left: 5%;
     width: 100%;
-    padding: 20px 50px;
+}
+
+.serv-cont {
+    width: 60%;
+}
+
+.serv-img {
+    width: 40%;
+}
+
+.serv-img img {
+    width: 28rem;
+    border-radius: 8px;
+}
+
+
+/* case study!! */
+.case-study {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.case-study h2 {
+    font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
-.scan-img img {
-    width: 25rem;
-    border-radius: 24px;
+.case-study-item h3 span {
+    color: #FF914D;
 }
 
-.img-description h3{
-    font-size: 1.8rem;
-    padding: 0 0 0 60px;
-    font-weight: 400;
+.see {
+    font-size: 1.3rem;
+}
+
+.case-study-item p {
+    font-size: 1.18rem;
+}
+
+.case-study-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.case-study-item {
+    width: 45%;
+}
+
+.case-study-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #FF914D;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.9s ease;
 }
