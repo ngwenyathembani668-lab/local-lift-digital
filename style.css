@@ -13,22 +13,24 @@
 /* body */
 body {
     font-family: "Quicksand", sans-serif;
-    margin-bottom: 2px;
+    margin-bottom: 0.7px;
 }
 
 
 /* navigation bar!! */
 nav {
     display: flex;
+    color: #fff;
     justify-content: space-between;
     padding: 20px 25px;
-    height: 60px;
+    height: 68px;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    opacity: 87%;
+    background-color: #000;
 }
 
 .logo label {
@@ -48,7 +50,7 @@ nav {
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #222;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 475;
     padding: 6px 10px;
@@ -57,7 +59,8 @@ nav {
 
 .nav-links ul li a:hover {
     transition: 0.9s ease;
-    background-color: #dfd7d7;
+    color: #fff;
+    background-color: #FF914D;
 }
 
 .wa-cta a {
